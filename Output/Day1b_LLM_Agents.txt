@@ -1,0 +1,73 @@
+User > What are the latest advancements in quantum computing and what do they mean for AI? 
+Warning: there are non-text parts in the response: ['function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+ResearchCoordinator > The latest advancements in quantum computing are poised to revolutionize AI, leading to the development of "Quantum AI" systems that are faster, more precise, and capable of solving previously intractable problems. Key progress areas include quantum hardware development, such as increased qubit counts and room-temperature computing, and Quantum Machine Learning (QML) algorithms. Hybrid quantum-classical approaches are emerging as the standard for leveraging quantum capabilities.
+
+By 2026, quantum computing is expected to solve real-world problems more efficiently than classical methods, impacting sectors like finance, logistics, personalized medicine, and drug discovery, and dramatically accelerating AI model training. However, these advancements also pose a significant threat to current encryption methods, making the adoption of post-quantum cryptography (PQC) crucial for cybersecurity.
+[Event(model_version='gemini-2.5-flash-lite', content=Content(
+  parts=[
+    Part(
+      function_call=FunctionCall(
+        args={
+          'request': 'latest advancements in quantum computing and their implications for AI'
+        },
+        id='adk-c1203135-90db-4c2c-b9c8-bb3d97b45e70',
+        name='ResearchAgent'
+      )
+    ),
+  ],
+  role='model'
+), grounding_metadata=None, partial=None, turn_complete=None, finish_reason=<FinishReason.STOP: 'STOP'>, error_code=None, error_message=None, interrupted=None, custom_metadata=None, usage_metadata=GenerateContentResponseUsageMetadata(
+  candidates_token_count=23,
+  prompt_token_count=187,
+  prompt_tokens_details=[
+    ModalityTokenCount(
+      modality=<MediaModality.TEXT: 'TEXT'>,
+      token_count=187
+    ),
+  ],
+  total_token_count=210
+), live_session_resumption_update=None, input_transcription=None, output_transcription=None, avg_logprobs=None, logprobs_result=None, cache_metadata=None, citation_metadata=None, interaction_id=None, invocation_id='e-21bccc29-9f11-4698-816c-4d89c5927adf', author='ResearchCoordinator', actions=EventActions(skip_summarization=None, state_delta={}, artifact_delta={}, transfer_to_agent=None, escalate=None, requested_auth_configs={}, requested_tool_confirmations={}, compaction=None, end_of_agent=None, agent_state=None, rewind_before_invocation_id=None), long_running_tool_ids=set(), branch=None, id='ee6b0989-31ed-423c-b853-d743c894690f', timestamp=1767342758.402378), Event(model_version=None, content=Content(
+  parts=[
+    Part(
+      function_response=FunctionResponse(
+        id='adk-c1203135-90db-4c2c-b9c8-bb3d97b45e70',
+        name='ResearchAgent',
+        response={
+          'result': """Quantum computing is rapidly advancing, with breakthroughs in hardware and algorithms poised to revolutionize artificial intelligence. The convergence of these two fields, often termed "Quantum AI," promises to overcome current limitations in AI's capabilities, enabling faster, more precise, and more powerful artificial intelligence systems.
+
+Key advancements include:
+
+*   **Hardware Development:** Innovations such as hypercube network technologies are enhancing the scalability and performance of quantum systems. IBM's Condor processor, with over 1,100 superconducting qubits, represents a significant leap in scale. Additionally, research into novel materials like germanium and GeSn-based quantum well lasers aims to improve the efficiency and performance of quantum hardware. Efforts are also underway to develop room-temperature quantum computers, which could significantly lower infrastructure costs and accelerate mainstream adoption.
+*   **Quantum Machine Learning (QML):** QML algorithms like Quantum Support Vector Machines (QSVM) and Quantum Neural Networks (QNN) are being developed to enhance AI by enabling faster model training and improved optimization. Frameworks like TorchQC are integrating machine learning with quantum systems to optimize quantum algorithms for real-world applications. It's anticipated that by 2026, quantum-accelerated AI could tackle problems previously deemed infeasible, such as real-time climate modeling and large-scale logistics optimization.
+*   **Hybrid Quantum-Classical Approaches:** Recognizing that classical computing will remain crucial for many tasks, the trend is towards hybrid workflows where quantum processors handle complex optimization and simulation tasks, while classical systems manage routine workloads. This heterogeneous compute approach is expected to become the default, driving partnerships between major cloud providers, national labs, and hardware companies.
+*   **Practical Applications:** The focus is shifting from laboratory breakthroughs to practical, real-world applications in fields like finance, logistics, and pharmaceuticals. Quantum-enhanced AI is expected to revolutionize personalized medicine through molecular-level body modeling, leading to faster drug discovery and patient-specific treatments. In mobility, it could optimize traffic flow and logistics, while in supply chains, it may enable real-time global routing currently impossible for classical computers.
+
+The implications for AI are profound. Quantum computing could provide the exponential computing power needed to break through AI's current bottlenecks. This could lead to AI systems that can process information at unprecedented speeds, enhancing capabilities in areas like natural language processing, drug discovery, materials science, and cybersecurity. For instance, AI models like those used by ChatGPT could potentially be trained in hours instead of weeks, making AI development quicker and more energy-efficient.
+
+However, this advancement also presents challenges, particularly in cybersecurity. Quantum computers pose a significant risk to current encryption methods, necessitating the urgent adoption of post-quantum cryptography (PQC). The race is on, with quantum-enhanced AI potentially empowering malicious actors with advanced capabilities, while simultaneously offering the promise of revolutionary defensive measures.
+
+By 2026, quantum computing is projected to be solving real-world problems more efficiently than classical methods, working alongside classical infrastructure to enhance optimization, simulation, and decision-making processes. The convergence of quantum computing and AI is expected to usher in a new era of computing, making AI faster, smarter, and capable of solving problems once considered impossible."""
+        }
+      )
+    ),
+  ],
+  role='user'
+), grounding_metadata=None, partial=None, turn_complete=None, finish_reason=None, error_code=None, error_message=None, interrupted=None, custom_metadata=None, usage_metadata=None, live_session_resumption_update=None, input_transcription=None, output_transcription=None, avg_logprobs=None, logprobs_result=None, cache_metadata=None, citation_metadata=None, interaction_id=None, invocation_id='e-21bccc29-9f11-4698-816c-4d89c5927adf', author='ResearchCoordinator', actions=EventActions(skip_summarization=None, state_delta={'research_findings': 'Quantum computing is rapidly advancing, with breakthroughs in hardware and algorithms poised to revolutionize artificial intelligence. The convergence of these two fields, often termed "Quantum AI," promises to overcome current limitations in AI\'s capabilities, enabling faster, more precise, and more powerful artificial intelligence systems.\n\nKey advancements include:\n\n*   **Hardware Development:** Innovations such as hypercube network technologies are enhancing the scalability and performance of quantum systems. IBM\'s Condor processor, with over 1,100 superconducting qubits, represents a significant leap in scale. Additionally, research into novel materials like germanium and GeSn-based quantum well lasers aims to improve the efficiency and performance of quantum hardware. Efforts are also underway to develop room-temperature quantum computers, which could significantly lower infrastructure costs and accelerate mainstream adoption.\n*   **Quantum Machine Learning (QML):** QML algorithms like Quantum Support Vector Machines (QSVM) and Quantum Neural Networks (QNN) are being developed to enhance AI by enabling faster model training and improved optimization. Frameworks like TorchQC are integrating machine learning with quantum systems to optimize quantum algorithms for real-world applications. It\'s anticipated that by 2026, quantum-accelerated AI could tackle problems previously deemed infeasible, such as real-time climate modeling and large-scale logistics optimization.\n*   **Hybrid Quantum-Classical Approaches:** Recognizing that classical computing will remain crucial for many tasks, the trend is towards hybrid workflows where quantum processors handle complex optimization and simulation tasks, while classical systems manage routine workloads. This heterogeneous compute approach is expected to become the default, driving partnerships between major cloud providers, national labs, and hardware companies.\n*   **Practical Applications:** The focus is shifting from laboratory breakthroughs to practical, real-world applications in fields like finance, logistics, and pharmaceuticals. Quantum-enhanced AI is expected to revolutionize personalized medicine through molecular-level body modeling, leading to faster drug discovery and patient-specific treatments. In mobility, it could optimize traffic flow and logistics, while in supply chains, it may enable real-time global routing currently impossible for classical computers.\n\nThe implications for AI are profound. Quantum computing could provide the exponential computing power needed to break through AI\'s current bottlenecks. This could lead to AI systems that can process information at unprecedented speeds, enhancing capabilities in areas like natural language processing, drug discovery, materials science, a
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000021E9D7D2980>
+Traceback (most recent call last):
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\asyncio\proactor_events.py", line 116, in __del__
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\asyncio\proactor_events.py", line 82, in __repr__
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\reprlib.py", line 21, in wrapper
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\asyncio\base_futures.py", line 66, in _future_repr
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000021E9D7D2980>  
+Traceback (most recent call last):
+ure_repr
+TypeError: 'NoneType' object is not callable
+Exception ignored in: <function _ProactorBasePipeTransport.__del__ at 0x0000021E9D7D2980>
+Traceback (most recent call last):
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\asyncio\proactor_events.py", line 116, in __del__
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\asyncio\proactor_events.py", line 82, in __repr__
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\reprlib.py", line 21, in wrapper
+  File "c:\Users\GP\anaconda3\envs\ai-agents\Lib\asyncio\base_futures.py", line 66, in _future_repr
+TypeError: 'NoneType' object is not callable
