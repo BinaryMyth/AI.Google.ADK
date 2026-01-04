@@ -1,0 +1,8 @@
+User > I want to convert 500 US Dollars to Euros using my Platinum Credit Card. How much will I receive?
+Warning: there are non-text parts in the response: ['function_call', 'function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+currency_agent > You will receive 455.70 Euros.
+
+Here's the breakdown:
+1. A fee of 2% will be deducted from your 500 USD. This amounts to 10 USD.
+2. After the fee, you will have 490 USD remaining.
+3. Using the exchange rate of 1 USD = 0.93 EUR, your 490 USD will be converted to 455.70 EUR.

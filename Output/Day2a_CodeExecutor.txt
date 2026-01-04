@@ -1,0 +1,12 @@
+Convert 1,250 USD to INR using a Bank Transfer. Show me the precise calculation.
+Warning: there are non-text parts in the response: ['function_call'], returning concatenated text result from text parts. Check the full candidates.content.parts accessor to get the full model response.
+enhanced_currency_agent > The transaction fee for using Bank Transfer is 1% and the exchange rate from USD to INR is 83.58.
+
+After deducting the fee, the final converted amount is 103,430.25 INR.
+
+Here's the breakdown of the calculation:
+*   **Fee Percentage:** 1%
+*   **Fee Amount:** 12.50 USD (1,250 USD \* 0.01)
+*   **Amount after Fee:** 1,237.50 USD (1,250 USD - 12.50 USD)
+*   **Exchange Rate:** 83.58 INR per 1 USD
+*   **Final Converted Amount:** 103,430.25 INR (1,237.50 USD \* 83.58)
