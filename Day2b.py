@@ -1,5 +1,4 @@
 import asyncio
-import uuid
 from google.genai import types
 
 from google.adk.agents import LlmAgent
@@ -17,7 +16,6 @@ from google.adk.tools.function_tool import FunctionTool
 from google.adk.runners import InMemoryRunner
 
 from IPython.display import display, Image as IPImage
-import base64
 
 print("✅ ADK components imported successfully.")
 
